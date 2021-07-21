@@ -1,0 +1,86 @@
+@import url("./transitions.css");
+/* @import url("./app.css"); */
+* {
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(67, 78, 5);
+    margin-top: auto;
+    padding-right: 40px;
+}
+.intro_page{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-image: url(../Images/macbook_air-100538062-large.jpg);
+}
+.intro_heading{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(6, 6, 75);
+    /* background-color: white ; */
+}
+.intro_heading p{
+    text-align: center;
+    font-weight: 100px;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.intro{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    text-align: center;
+}
+.intro_buttons{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    color: rgb(6, 6, 75);
+    align-content: space-between;
+    font-size: large;
+}
+.intro_buttons p{
+    border: 2.5px solid black;
+    border-radius: 9px;
+    padding: 4px;
+    margin: 0.5rem;
+}
+a{
+    text-decoration: none;
+}
+.login{
+    background: rgb(56, 56, 228);
+    color: cornsilk;
+}
+.login:hover{
+    background: none;
+    color: gray;
+}
+.sign_up{
+    color: rgb(29, 124, 29);
+    /* background: gray; */
+}
+.sign_up:hover{
+    color: rgb(56, 56, 228);
+    background: rgb(56, 56, 223);
+}
+.sign_up:active{
+    color: rgb(55, 55, 202);
+    background: gray;
+}
+.footer{
+    display: flex;
+    font-size: 13px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    color: brown;
+    background-color: rgb(156, 130, 95);
+}
